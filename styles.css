@@ -1,0 +1,41 @@
+.choice {background-color: #fff;}
+.selected { outline: 3px solid currentColor; }
+.win { background-color: #0f0; }
+.lose { background-color: #f00; color: #fff; }
+.tie { background-color: #ff0; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.h1  {
+  background-color: #ff4d4d; /* Red color */
+  color: white; /* Text color for contrast */
+  padding: 20px;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Creates the "raised" effect */
+  border: 1px solid #ff3333; /* Optional: Slight border */
+}
+
+.cloudy {
+  /* Soft, rounded shape */
+  border-radius: 50px / 30px; 
+  
+  /* Gradient to simulate soft lighting */
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  
+  /* Outer soft shadow */
+  box-shadow: 10px 10px 20px #d9d9d9, 
+             -10px -10px 20px #ffffff;
+             
+  /* Inner shadow to make it look "stuffed" */
+  border: 1px solid #f0f0f0;
+  
+  /* Layout */
+  padding: 40px;
+  max-width: 400px;
+  min-height: 200px;
+}
